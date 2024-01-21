@@ -1,2 +1,4 @@
-# cfg-webdev-project
-CFG Web Dev Project
+# CFG Web Dev Project
+
+### Contributors
+Sirjan Roopra
