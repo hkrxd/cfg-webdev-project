@@ -1,0 +1,24 @@
+.HeaderMain{
+    font-size: 70px;
+    font-family: 'Black Ops One', system-ui;
+    text-align: center;
+    color: azure;
+}
+
+.TagLine{
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+body {
+    background: linear-gradient(90deg, #dae795, #d7a2d9);
+}
+
+
+#RegionalMap {
+display:block;
+max-width: 100%;
+height: auto;
+}
