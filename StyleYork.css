@@ -2,9 +2,14 @@ body{
     background: linear-gradient(90deg, #dae795, #d7a2d9);
 }
 
+.container-fluid{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row; 
+}
 .grid-container1 {
     display: grid;
-    grid-template-columns: repeat(3, 6fr);
+    grid-template-columns: repeat(3);
     grid-gap: 10px;
     grid-template-areas:
       "image1 image2 image3"
@@ -24,73 +29,3 @@ body{
     height: auto;
   }
 
-  .image2 {
-    grid-area: image2;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image3 {
-    grid-area: image3;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image4 {
-    grid-area: image4;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image5 {
-    grid-area: image5;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image6 {
-    grid-area: image6;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  .image7 {
-    grid-area: image7;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image8 {
-    grid-area: image8;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image9 {
-    grid-area: image9;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
