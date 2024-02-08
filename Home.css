@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(90deg, #dae795, #d7a2d9);
+}
+
 .HeaderMain{
     font-size: 70px;
     font-family: 'Black Ops One', system-ui;
@@ -10,15 +14,28 @@
     font-family: 'Teko', sans-serif;
     text-align: center;
     color: azure;
+    text-wrap:balance;
 }
 
-body {
-    background: linear-gradient(90deg, #dae795, #d7a2d9);
+.TopBar{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    display:block;
+    text-align: center;
+    text-wrap:balance; 
+    color:#574369; 
 }
-
 
 #RegionalMap {
 display:block;
 max-width: 100%;
 height: auto;
+}
+
+.BottomBar{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    display: block;
+    text-align:center;
+    text-wrap:balance; 
 }
