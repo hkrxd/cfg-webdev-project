@@ -22,8 +22,9 @@ body {
     font-size: 40px;
     display:block;
     text-align: center;
-    text-wrap:balance; 
-    color:#574369; 
+    max-width: 100%;
+    background: linear-gradient(90deg, #dae795, #d7a2d9);
+    color:#574369;
 }
 
 #RegionalMap {
@@ -35,7 +36,9 @@ height: auto;
 .BottomBar{
     font-family: 'Teko', sans-serif;
     font-size: 30px;
-    display: block;
-    text-align:center;
-    text-wrap:balance; 
+    text-align: center;
+    text-wrap:balance;
+    max-width: 100%;
+    background: linear-gradient(90deg, #dae795, #d7a2d9);
+    color:#574369;
 }
