@@ -7,10 +7,15 @@ const pins = [{
     x: 0.81,
     y: 0.80,
 }, {
+    name: 'South East',
+    page: 'southeast.html',
+    x: 0.76,
+    y: 0.83,
+}, {
     name: 'Midlands',
-    page: '.',
+    page: 'midlands.html',
     x: 0.73,
-    y: 0.68,
+    y: 0.65,
 }, {
     name: 'Yorks/Humber',
     page: 'yorkhum.html',
@@ -18,7 +23,7 @@ const pins = [{
     y: 0.54,
 },{
     name: 'Scotland',
-    page: '.',
+    page: 'scotland.html',
     x: 0.60,
     y: 0.30,
 }];

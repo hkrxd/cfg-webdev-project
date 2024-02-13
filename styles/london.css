@@ -3,6 +3,8 @@
     margin: 50px auto;
 }
 
-.carousel-inner > .item > img {
+.item > img {
     margin: auto;
+    width: auto;
+    height: 300px !important;
 }
