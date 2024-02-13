@@ -1,0 +1,14 @@
+#myCarousel {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.item > img {
+    margin: auto;
+    width: auto;
+    height: 300px !important;
+}
